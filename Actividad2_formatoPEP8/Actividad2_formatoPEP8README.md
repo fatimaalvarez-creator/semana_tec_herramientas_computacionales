@@ -1,6 +1,7 @@
 # Actividad 2. Filtrado de la imagen en formato PEP8 y agregando commits
- Herramientas computacionales: el arte de la programación (Gpo 201) - TC1001S.201
- Fátima Álvarez Nuño - A01645815
+ Herramientas computacionales: el arte de la programación (Gpo 201) - TC1001S.201 <br/>
+ Fátima Álvarez Nuño - A01645815 <br/>
+ Fecha: 06/05/2025 <br/>
 
 ## Objetivo
 Este proyecto realiza el procesamiento de una imagen para detectar texto presente en ella utilizando técnicas de visión por computadora y OCR (Reconocimiento Óptico de Caracteres). Para ello, se emplean bibliotecas como OpenCV, EasyOCR y Matplotlib.
