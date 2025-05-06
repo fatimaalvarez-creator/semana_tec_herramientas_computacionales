@@ -1,8 +1,7 @@
 # Importar las bibliotecas necesarias
-import cv2
-import numpy as np
-import matplotlib.pyplot as plt
-import easyocr
+import numpy as np # Para operaciones numéricas y matrices
+import matplotlib.pyplot as plt  # Para visualización de imágenes
+import easyocr # Para reconocimiento óptico de caracteres (OCR)
 
 # Cargar la imagen y convertir a RGB
 imagen = cv2.imread("placa3.jpg")
