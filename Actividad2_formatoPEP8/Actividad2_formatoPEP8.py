@@ -58,3 +58,6 @@ plt.show()
 print("\nTextos detectados:")
 for _, texto, _ in resultados_ocr:
     print(f"Texto: '{texto}'")
+
+# Importar la biblioteca OpenCV para mostrar imágenes
+import cv2    
