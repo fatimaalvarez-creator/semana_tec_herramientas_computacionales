@@ -1,4 +1,4 @@
-# Actividad 2. Filtrado de la imagen en formato PEP8 y agregando commits
+# Actividad 2. Documentación GIT en formato PEP8 y agregando commits
  Herramientas computacionales: el arte de la programación (Gpo 201) - TC1001S.201 <br/>
  Fátima Álvarez Nuño - A01645815 <br/>
  Fecha: 06/05/2025 <br/>
