@@ -1,0 +1,22 @@
+# Ignorar entorno virtual de Python
+venv/
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Ignorar archivos del sistema
+.DS_Store
+
+# Ignorar imágenes de cartas escaneadas
+Cartas/
+CartasProcesadas/
+*.jpg
+*.jpeg
+*.png
+
+# Otros archivos binarios o pesados
+*.dylib
+*.exe
+*.zip
+*.mp4
