@@ -12,7 +12,7 @@ semana_tec_herramientas_computacionales/
 ├── README.md                                   <- README principal del repositorio con la visión general de la Semana Tec.
 ├── Actividad1_filtrado_de_imagen/              <- Directorio para la primera actividad: Filtrado de Imagen.
 │   ├── Actividad1_filtrado_de_imagen.ipynb     <- Notebook de Jupyter con el código para el filtrado de imágenes.
-│   ├── Matriz_mult_RISCV.txt                   <- Archivo de texto adicional (quizás datos o resultados de otra práctica no directamente relacionada con la actividad de          │                                                   filtrado, o un remanente).
+│   ├── Matriz_mult_RISCV.txt                   <- Archivo de texto adicional (quizás datos o resultados de otra práctica no directamente relacionada con la actividad defiltrado, o un remanente).
 │   ├── placa1.jpg                              <- Imagen de ejemplo para el filtrado.
 │   ├── placa2.jpg                              <- Imagen de ejemplo para el filtrado.
 │   ├── placa3.jpg                              <- Imagen de ejemplo para el filtrado.
