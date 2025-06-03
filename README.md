@@ -27,35 +27,33 @@ semana_tec_herramientas_computacionales/
         ├── README.md                           <- README específico del proyecto BlackjackScan, con detalles de uso y características.
         └── blackjackscan_juego.py              <- Módulo de Python principal que implementa la lógica del juego de Blackjack.        
 ```
-
-**Nota:** La estructura anterior es un ejemplo. Debes adaptar los nombres de los directorios de `actividad_1/` y `actividad_2/` a los nombres reales de tus actividades y añadir los archivos correspondientes.
-
 ---
 
 ## 🎯 Proyectos y Actividades Destacadas
 
-### 1. Actividad 1: [Título Corto de la Actividad 1]
-* **Descripción:** Breve explicación de lo que se hizo en la Actividad 1. (Ej: Implementación de un script para procesamiento de texto).
-* **Tecnologías:** [Lenguajes/Herramientas usadas en esta actividad, ej: Python, Pandas]
-* **Ubicación:** `actividad_1/`
+### 1. Actividad 1: Filtrado de Imagen
+* **Descripción:** Esta actividad se enfocó en el **procesamiento de imágenes** para aplicar diferentes filtros (como suavizado, detección de bordes, etc.) a un conjunto de imágenes (`placa1.jpg` a `placa4.jpg`). El objetivo fue explorar las capacidades de Python para la manipulación de imágenes y comprender los principios básicos de los algoritmos de filtrado digital, utilizando un entorno interactivo como Jupyter Notebook.
+* **Tecnologías:** `Python`, `Jupyter Notebook` (`.ipynb`), `NumPy` (para operaciones matriciales), `Pillow` o `OpenCV` (para manipulación y procesamiento de imágenes).
+* **Ubicación:** `Actividad1_filtrado_de_imagen/`
 
-### 2. Actividad 2: [Título Corto de la Actividad 2]
-* **Descripción:** Breve explicación de lo que se hizo en la Actividad 2. (Ej: Desarrollo de una pequeña aplicación de consola con interfaz de usuario).
-* **Tecnologías:** [Lenguajes/Herramientas usadas en esta actividad, ej: Python, `argparse`]
-* **Ubicación:** `actividad_2/`
+### 2. Actividad 2: Documentación de GIT
+* **Descripción:** El propósito de esta actividad fue **documentar y aplicar el uso de Git y GitHub** para el control de versiones y la colaboración. Se realizaron ejercicios prácticos con comandos esenciales de Git (`add`, `commit`, `push`, `pull`, `branch`, `merge`, etc.) y se creó un `README.md` específico para registrar el flujo de trabajo y las lecciones aprendidas. El script de Python asociado pudo haber sido utilizado para ejemplificar o automatizar tareas relacionadas con Git.
+* **Tecnologías:** `Git`, `GitHub`, `Python` (para el script `Actividad2_documentacion_GIT.py`).
+* **Ubicación:** `Actividad2_documentacion_GIT/`
 
 ### 3. Proyecto Final: BlackjackScan
 
-* **Descripción:** **BlackjackScan** es un proyecto desarrollado en **Python** que simula un juego de Blackjack, incorporando posiblemente funcionalidades avanzadas como el reconocimiento de cartas a través de procesamiento de imágenes (si es parte del alcance "scan") o la simulación de estrategias.
+* **Descripción:** **BlackjackScan** es un proyecto robusto desarrollado en **Python** que simula un juego completo de Blackjack. La lógica central del proyecto (`blackjackscan_juego.py`) gestiona las reglas del juego, el reparto de cartas, los turnos del jugador y la casa, el cálculo de puntuaciones y la determinación del ganador. La inclusión del módulo `CardScanner.py` sugiere una ambiciosa extensión para **integrar el reconocimiento visual de cartas**, permitiendo una posible interacción con imágenes de cartas reales o simuladas.
 * **Características Principales:**
-    * Simulación de juego de Blackjack.
-    * [Añade otras características relevantes, ej: Sistema de puntuación, manejo de varias manos, etc.]
-    * [Si aplica: Funcionalidad de 'scan' para reconocer cartas (ej: usando OpenCV).]
+    * **Simulación del Juego de Blackjack:** Lógica completa del juego, incluyendo turnos de jugador y dealer, manejo de apuestas (si implementado), y determinación de ganadores.
+    * **Gestión de Puntuaciones y Manos:** Cálculo de puntuaciones para jugadores y la casa, manejo de condiciones como "blackjack" y "bust".
+    * **Potencial de Escaneo de Cartas (`CardScanner.py`):** Módulo dedicado al procesamiento de imágenes para identificar y extraer información de cartas, lo que podría habilitar interacciones con fuentes de imágenes externas.
 * **Tecnologías Utilizadas:**
     * `Python`
-    * [Otras librerías de Python si usaste, ej: `OpenCV` para visión artificial, `Pillow` para imágenes, etc.]
-* **Ubicación:** `proyecto_final_blackjackscan/`
-* **Para Ejecutar:** Consulta el `README.md` dentro del directorio `proyecto_final_blackjackscan/` para instrucciones detalladas sobre cómo ejecutar el proyecto.
+    * `Pillow` (muy probable para manipulación de imágenes si no se usó OpenCV)
+    * `OpenCV` (si se implementó la funcionalidad de reconocimiento visual de cartas, muy relevante para "Scan").
+* **Ubicación:** `Proyecto/BlackjackScanner-main/`
+* **Para Ejecutar:** Para obtener instrucciones detalladas sobre cómo configurar y ejecutar el proyecto, incluyendo la instalación de dependencias, por favor, consulta el `README.md` dentro del directorio `Proyecto/BlackjackScanner-main/`.
 
 ---
 
@@ -65,9 +63,8 @@ Durante esta Semana Tec, se utilizaron diversas herramientas computacionales, in
 
 * 🐍 **Python:** Lenguaje de programación principal para el desarrollo de scripts y el proyecto final.
 * 💻 **Visual Studio Code:** Entorno de desarrollo integrado (IDE).
-* 📦 **pip:** Gestor de paquetes de Python.
+* 📦 **Librer{ias de Python:** Para hacer el filtrado de las imágenes de las actividades.
 * 🚀 **Git & GitHub:** Para control de versiones y colaboración.
-* [Añade cualquier otra herramienta o librería relevante que hayas usado de forma general.]
 
 ---
 
@@ -79,7 +76,3 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 * **A01645815**
 
 ---
-
-## 📜 Licencia
-
-[Opcional: Añade información de licencia si aplica, ej: Este proyecto está bajo la licencia MIT.]
